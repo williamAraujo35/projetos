@@ -1,0 +1,180 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 0.5fr 2fr;
+    
+}
+
+.menuLeft {
+    background-color: #3871db;
+    color: white;
+    grid-row: 1 / 3;
+}
+
+.conteudoMain{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #dfdfdf;
+}
+
+ul, li, a, img {
+    display: inline-block;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+li {
+    font-weight: 600;
+}
+
+#bigCat{
+    width:10%;
+    height: auto;
+}
+
+ul {
+    display: grid;
+    grid-template-rows: repeat(12, 1fr);
+    gap: 10px;
+    padding: 10px;
+}
+
+#logo {
+    font-size: larger;
+    font-weight:bolder;
+    font-size:x-large;
+}
+
+.header {
+    display: grid;
+    grid-template: 1fr 1fr / 2fr 1fr ;
+    grid-column: 2 / 3;
+    font-weight: bolder;
+    gap: 10px;
+    background-color: white;
+    margin-bottom: -10%;
+    
+}
+
+p{
+    display: inline-block;
+}
+
+.btns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-top: 10%;
+}
+.userConect{
+    margin-top: 6%;
+}
+
+.campoPesquisa {
+    width: 90%;
+    height: 30%;
+    background-color: #dfdfdf;
+    border: none;
+    border-radius: 20px;
+}
+.btn {
+    background-color: #3871db;
+    border-radius: 20px;
+    color: white;
+    width: 80%;
+    height: 100%;
+    font-weight: 600;
+    border: none;
+    padding: 10px 0px;
+}
+
+.subtitulos{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.card {
+    border-left: 6px solid #f9a72e;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: white;
+
+}
+
+.cardsHorizontais{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column: 1 / 3;
+    grid-row: 1 / 4;
+    gap: 10px;
+}
+
+.cardsVerticais{
+    margin-left: 5%;
+    display: grid;
+    grid-column: 3 / 4;   
+    gap: 10px; 
+
+}
+
+.cardVertical{
+    width: 80%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#textCard{
+    color: gray;
+    text-align:left;
+}
+
+.icons {
+    text-align: right;
+}
+
+.areaNoticia{
+    margin-top: 10px;
+    border-bottom:1px solid gray;
+}
+
+#legendNews {
+    color: gray;
+}
+
+table{
+    border-radius: 5px;
+    background-color: white;
+    margin-bottom: 10px;
+
+}
+
+.columnUser {
+    width:15cqmax;
+    color: gray;
+    
+}
+
+#nomeUser{
+    font-weight: bold;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
